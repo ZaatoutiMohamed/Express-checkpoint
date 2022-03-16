@@ -1,0 +1,41 @@
+body {
+  background-position: center;
+  background: rgb(99, 135, 136);
+}
+
+nav {
+  max-width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+nav ul {
+  text-align: center;
+  background: #ffffffe6;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li:hover {
+  background: #275657;
+  color: rgba(0, 35, 122, 0.7);
+}
+
+h1 {
+  text-align: center;
+  background-color: #ffffff;
+  color: #424747;
+}
+
+h3 {
+  text-align: center;
+  background-color: #ffffff;
+
+  color: #422a86;
+}
+
+h4 {
+  text-align: center;
+  background-color: #ffffff;
+  color: #422a86;
+}
