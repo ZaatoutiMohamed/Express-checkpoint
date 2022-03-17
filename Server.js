@@ -11,10 +11,12 @@ const Middleware=(req,res,next)=>{
     {
         return res.send('<h1>We are Not working Now Try during working days and hours</h1>')
     } 
-    else {next()}
+    else {
+        next()
+    }
 }
 app.use(Middleware);
 
-app.use(express.static('Public'))
+app.use(express.static('public'))
 
 app.listen(port, console.log(` server is running on ${port}`))

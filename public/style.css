@@ -1,19 +1,30 @@
 body {
   background-position: center;
-  background: rgb(99, 135, 136);
+  background: rgb(25, 27, 27);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-nav {
-  max-width: 100%;
-  margin: 0%;
-  padding: 0%;
+li {
+  float: left;
 }
 
-nav ul {
+li a {
+  display: block;
+  color: white;
   text-align: center;
-  background: #ffffffe6;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
-    inset 0 0 1px rgba(255, 255, 255, 0.6);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
 
 nav ul li:hover {
@@ -38,4 +49,11 @@ h4 {
   text-align: center;
   background-color: #ffffff;
   color: #422a86;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 300px;
 }
